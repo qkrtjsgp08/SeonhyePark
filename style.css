@@ -2,15 +2,16 @@ body {
   font-family: 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff;
   color: #333;
-  line-height: 1.6;
-  text-align: center;
+  background: #fff;
 }
 
-header nav {
+nav {
   background: #f0f0f0;
   padding: 1em 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
@@ -20,18 +21,57 @@ nav a {
   font-weight: bold;
 }
 
-main {
-  max-width: 600px;
+.intro-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2em;
+  max-width: 1000px;
   margin: 2em auto;
   padding: 1em;
+  align-items: center;
 }
 
-ul {
+.intro-text {
+  padding-left: 2em;
+}
+
+.intro-photo img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.education {
   list-style: none;
   padding: 0;
+  margin-top: 1em;
 }
 
-li {
+.education li {
+  margin-bottom: 0.5em;
+}
+
+#publications {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 0 1em;
+}
+
+.papers {
+  list-style: none;
+  padding: 0;
   text-align: left;
+}
+
+.papers li {
   margin-bottom: 1.5em;
+}
+
+footer {
+  margin-top: 4em;
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: center;
+  color: #666;
 }
