@@ -1,59 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Seonhye Park</title>
-  <link rel="stylesheet" href="style.css" />
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doowon Kim, Assistant Professor, EECS @ UTK</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700" rel="stylesheet">
+<!--   <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700" rel="stylesheet"> -->
+<!--   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"><meta http-equiv="cleartype" content="on">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
-  <!-- 상단 메뉴 -->
-  <header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#publications">Published Papers</a>
-    </nav>
-  </header>
+<body><header class="site-header">
 
-  <!-- 메인 레이아웃: 이름 + 설명 + 사진 -->
-  <section id="home" class="intro-section">
-    <div class="intro-text">
-      <h1>Seonhye Park</h1>
-      <p>Ph.D. Student in AI Security at [Your University]</p>
-      <p>My research interests include adversarial machine learning, robust learning, and trustworthy AI systems.</p>
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Doowon Kim</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
 
-      <h2>Education</h2>
-      <ul class="education">
-        <li><strong>Ph.D.</strong> in Computer Science, [University], 2023–Present</li>
-        <li><strong>B.S.</strong> in Computer Science, [Undergrad], 2019–2023</li>
-      </ul>
+        <div class="trigger"><a class="mypage-link" href="/">About</a><a class="mypage-link" href="/people/">People</a><a class="mypage-link" href="/publications/">Publications</a><a class="mypage-link" href="/teaching-services/">Teaching/Services</a><a class="mypage-link" href="/blog">Blog</a>
+        </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <!-- <header class="post-header">
+    <h1 class="post-title">Doowon KIM</h1>
+    <h6>Ph.D.</h6>
+  </header> -->
+
+  <div class="post-content">
+    <div class="row">
+  <div class="col-md-9">
+    <p>I’m an Assistant Professor in <a href="http://eecs.utk.edu/">the Department of Electrical Engineering and Computer Science</a> at <a href="https://www.utk.edu/">the University of Tennessee, Knoxville</a>. I received my Ph.D. in <a href="https://www.cs.umd.edu">Computer Science</a> from <a href="https://www.umd.edu">the University of Maryland, College Park</a> in May 2020 where I worked with Prof. <a href="http://users.umiacs.umd.edu/~tdumitra/">Tudor Dumitras</a>.</p>
+
+    <p>My research interests include <strong>computer security</strong> (data-driven security and usable security), <strong>computer networks</strong> (Internet measurement), and the <strong>Web</strong>. I am interested in identifying the root causes of security threats by understanding the actors (e.g., adversary and end-users) involved, with <em>data-driven</em> and <em>human-centered</em> perspectives (i.e., usability study).</p>
+
+    <p>I have been awarded <a href="https://cps-vo.org/group/sos/papercompetition">NSA Best Scientific Cybersecurity Paper</a> (2017) and <a href="https://gradschool.umd.edu/funding/student-fellowships-awards/ann-g-wylie-dissertation-fellowship">the Ann G. Wylie Dissertation Fellowship</a> (2019). My works about the Code-Signing PKI have been featured in Ars Technica, The Register, Schneier on Security, Threatpost, etc.</p>
+
+    <p><i class="fa fa-star" aria-hidden="true"></i> <strong>I am actively looking for self-motivated undergraduate students and visiting scholars. Please email me if you’re interested in security, computer networks, and Web security</strong>.</p>
+
+  </div>
+  <div class="col-md-3">
+    <p><img src="lim.png" alt="doowon-kim" class="center-block rounded-corners" height="250px" /></p>
+
+    <!-- <img class="center-block rounded-corners" alt="doowon" height=250 src="https://doowon.github.io/images/Doowon.jpg"> -->
+
+    <p><i class="fa fa-building" aria-hidden="true"></i> 345 Min H. Kao Bldg<br />
+<i class="fas fa-envelope big-icon"></i> doowon@utk.edu <br />
+<i class="fab fa-twitter big-icon"></i> <a href="https://twitter.com/doo2won1">Twitter</a> <br />
+<i class="ai ai-google-scholar big-icon"></i> <a href="https://scholar.google.com/citations?user=5lMlCeIAAAAJ&amp;hl=en">Google Scholar</a> <br />
+<i class="far fa-address-card"></i> <a href="./assets/doowon_cv.pdf">CV</a></p>
+  </div>
+</div>
+
+<h3 id="recent-research-areas--interests">Recent Research Areas &amp; Interests</h3>
+<ul>
+  <li>Web &amp; Phishing: <a href="">Usenix Security’25</a>, <a href="">TheWebConf’25 (1)</a>, <a href="">TheWebConf’25 (2)</a>, <a href="https://doowon.github.io/assets/papers/2024/lim_phishing_www24.pdf">TheWebConf’24</a>, <a href="https://dl.acm.org/doi/10.1145/3634737.3657013">AsiaCCS’24</a>, <a href="https://www.ndss-symposium.org/wp-content/uploads/2024-228-paper.pdf">NDSS’24</a>, <a href="https://dl.acm.org/doi/10.1145/3626790">SIGMETRICS’24</a>, <a href="https://doowon.github.io/assets/papers/2023/webclient_imc23.pdf">ACM IMC’23</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3433210.3453100">AsiaCCS’21 (1)</a>, <a href="https://dl.acm.org/doi/10.1145/3433210.3453107">AsiaCCS’21 (2)</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3442381.3450057">TheWebConf’21</a>, <a href="https://ieeexplore.ieee.org/document/9493260">eCrime’20</a></li>
+  <li>Secure Software Development: <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yan">USENIX Security’24</a>, <a href="https://arxiv.org/abs/2312.06227">IEEE S&amp;P’24</a>, <a href="https://ieeexplore.ieee.org/document/7958576">IEEE S&amp;P’17</a>, <a href="https://ieeexplore.ieee.org/document/7546508">IEEE S&amp;P’16</a></li>
+  <li>Public Key Infrastructures (PKI): <a href="https://www.usenix.org/conference/usenixsecurity18/presentation/kim">Usenix Security’18</a>, <a href="https://arxiv.org/abs/1803.02931">WEIS’18</a>, <a href="https://dl.acm.org/doi/10.1145/3133956.3133958">ACM CCS’17</a></li>
+  <li>Software Security: <a href="https://ieeexplore.ieee.org/document/10179370">IEEE S&amp;P’23</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3510003.3510139">ICSE’22</a></li>
+</ul>
+
+<h3 id="news">News</h3>
+<ul>
+  <li>Jan. 2025: <span class="badge badge-pill badge-dark">Paper</span> Congrats Fujiao! Her paper about evaluating the effectiveness and robustness of visual simiarity-based phishing detection models is accepted at USENIX Security 2025.</li>
+  <li>Jan. 2025: <span class="badge badge-pill badge-dark">Paper</span> Congrats Kyungchan and Fujiao! Two papers are accepted at TheWebConf’25 (formerly known as WWW). The first paper introduces a novel anti-phishing intervention that exploits inherent vulnerabilities in phishing websites and kits. The second paper presents a comprehensive measurement study analyzing the takedown dynamics of phishing websites post-detection.</li>
+  <li>Oct. 2024: Congrats Jaehwan on winning third place in the Korea National Cryptography Competition!</li>
+  <li>Jun. 2024: <span class="badge badge-pill badge-dark">Paper</span> Backdoor Attacks against Code Generation LLMs accepted at Usenix Security ‘24. Congrats to Kiho.</li>
+  <li>Jun. 2024: Two female undergraduate summer interns joined our lab. Welcome Mercy (from Berea College) and Rishika (from University of Alabama).</li>
+  <li>Mar. 2024: <span class="badge badge-pill badge-dark">Grant</span> Kyungchan was awarded the travel grant from the Web Conf ‘24. Congrats to Kyungchan.</li>
+  <li>Mar. 2024: <span class="badge badge-pill badge-dark">Paper</span> Phishing kits paper accepted at AsiaCCS ‘24. Congrats to Woonghee.</li>
+  <li>Aug. 2024: My Ph.D. Student, Jaehwan Park, awarded The Graduate School Fellowship. Congrats to Jaehwan!</li>
+  <li>Jan. 2024: <span class="badge badge-pill badge-dark">Paper</span> Two papers (Phishing and Asian hate)accepted at the Web Conf ‘24. Congrats to Kyungchan and Jaehwan. Our phishing paper has been selected for an oral presentation.</li>
+  <li>Nov. 2023: <span class="badge badge-pill badge-dark">Paper</span> “Sharing cyber threat intelligence: Does it really help?” accepted at NDSS ‘24.</li>
+  <li>Oct. 2023: <span class="badge badge-pill badge-dark">Paper</span> “Poisoned ChatGPT Finds Work for Idle Hands: Exploring Developers’ Coding Practices with Insecure Suggestions from Poisoned AI Models” accepted at IEEE S&amp;P’24.</li>
+  <li>Sep. 2023: <span class="badge badge-pill badge-dark">Paper</span> “A Large Scale Study and Classification of VirusTotal Reports on Phishing and Malware URLs” accepted at SIGMETRICS’24.</li>
+  <li>Aug. 2023: <span class="badge badge-pill badge-dark">Paper</span> “A Longitudinal Study of Vulnerable Client-side Resources and Web Developers’ Updating Behaviors” accepted at IMC’23. Congrats to Kyungchan!</li>
+  <li>Aug. 2023: My Ph.D. Student, Lu Liu, was awarded The Graduate School Fellowship. Congrats to Lu!</li>
+</ul>
+
+<details>
+  <summary><em>More</em></summary>
+  <ul>
+    <li>May 2022: TPC of AsiaCCS 2023.</li>
+    <li>Mar. 2023: <span class="badge badge-pill badge-dark">Paper</span> “Evaluating Password Composition Policy and Password Meters of Popular Websites” accepted at SecWeb Workshop (co-located with IEEE S&amp;P’23). Congrats to Kyungchan!</li>
+    <li>Mar. 2023: TPC of NDSS 2024, RAID 2023, and TMA 2023.</li>
+    <li>Nov. 2022: <span class="badge badge-pill badge-dark">Grant</span> Awarded supplemental funding and support from Google TensorFlow.</li>
+    <li>Nov. 2022: <span class="badge badge-pill badge-dark">Paper</span> PyFET: Forensically Equivalent Transformation for Python Binary Decompilation accepted at S&amp;P’23 (Oakland).</li>
+    <li>Sep. 2022: <span class="badge badge-pill badge-dark">Grant</span> Awarded Google exploreCSR.</li>
+    <li>Sep. 2022: <span class="badge badge-pill badge-dark">Grant</span> Awarded StART (Support for Affiliated Research Teams) program in collaboration with Oak Ridge National Laboratory.</li>
+    <li>Aug. 2022: TPC of IEEE EuroS&amp;P ‘23 and Best Student Paper Award of WISA’22.</li>
+    <li>May 2022: TPC of AsiaCCS ‘23</li>
+    <li>Apr. 2022: <span class="badge badge-pill badge-dark">Grant</span> NSF proposal awarded: <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=2210137">EAGER: DCL: SaTC: Enabling Interdisciplinary Collaboration: Combatting Disinformation and Racial Bias: A Deep-Learning-Assisted Investigation of Temporal Dynamics of Disinformation</a></li>
+    <li>Apr. 2022: TPC of CheckMate ‘22, WISA ‘22, and NDSS ‘23</li>
+    <li>Apr. 2022: <span class="badge badge-pill badge-dark">Grant</span> My Ph.D. student, Kyungchan Lim was awarded IEEE S&amp;P 2022 Travel Grant</li>
+    <li>Feb. 2022: TPC of WiSec ‘22, TMA ‘22, ICICS ‘22, and RAID ‘22</li>
+    <li>Dec. 2021: <span class="badge badge-pill badge-dark">Paper</span> “Hiding Critical Program Components via Ambiguous Translation” accepted to ICSE’22.</li>
+    <li>Oct. 2021: TPC of the Web Conf ‘21 (Security Track)</li>
+    <li>Aug. 2021: “Defeating program analysis techniques via Ambiguous Translation” accepted to ASE’21 (NIER).</li>
+    <li>May 2021: TPC of <a href="https://asiaccs2022.conferenceservice.jp/">AsiaCCS ‘22</a>.</li>
+    <li>Feb. 2021: Two papers accepted to <a href="http://asiaccs2021.comp.polyu.edu.hk/">AsiaCCS ‘21</a>.</li>
+    <li>Feb. 2021: TPC of RAID ‘21.<br /></li>
+    <li>Jan. 2021: “TLS 1.3 in Practice: How TLS 1.3 Contributes to Internet” accepted to <a href="https://www2021.thewebconf.org/">the Web Conf. ‘21</a> (formerly WWW)</li>
+  </ul>
+</details>
+
+<h3 id="selected-publications">Selected Publications</h3>
+<ul>
+  <li>
+    <p>[Usenix Security ‘25]: <strong>Evaluating the Effectiveness and Robustness of Visual Similarity-based Phishing Detection Models.</strong> <br />
+<ins>Fujiao Ji</ins>, <ins>Kiho Lee</ins>, Hyungjoon Koo, Wenhao You, Euijin Choo, Hyoungshick Kim, <span style="color:blue">Doowon Kim</span>.</p>
+  </li>
+  <li>
+    <p>[TheWebConf ‘25]: <strong>What’s in Phishers: A Longitudinal Study of Security Configurations in Phishing Websites and Kits.</strong><br />
+<ins>Kyungchan Lim</ins>, <ins>Kiho Lee</ins>, <ins>Fujiao Ji«/ins&gt;, Yonghwi Kwon, Hyoungshick Kim, <strong>Doowon Kim</strong>.</ins></p>
+  </li>
+  <li>
+    <p>[TheWebConf ‘25]: <strong>7 Days Later: Analyzing Phishing-Site Lifespan After Detected.</strong> <br />
+<ins>Kiho Lee</ins>, <ins>Kyungchan Lim</ins>, Hyoungshick Kim, Yonghwi Kwon, <strong>Doowon Kim</strong>.</p>
+  </li>
+  <li>
+    <p>[Usenix Security ‘24]: <strong>An LLM-Assisted Easy-to-Trigger Poisoning Attack on Code Completion Models: Injecting Disguised Vulnerabilities against Strong Detection.</strong><br />
+Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, <ins>Kiho Lee</ins>, <span style="color:blue">Doowon Kim</span> and Yuan Hong.</p>
+  </li>
+  <li>
+    <p>[TheWebConf ‘24]: <strong>Phishing Vs. Legit: Comparative Analysis of Client-Side Resources of Phishing and Target Brand Websites. <em>(Oral)</em></strong><br />
+<ins>Kyungchan Lim</ins>, <ins>Jaehwan Park</ins>, and <span style="color:blue">Doowon Kim</span>.</p>
+  </li>
+  <li>
+    <p>[TheWebConf ‘24]: <strong>Not All Asians are the Same: A Disaggregated Approach to Identifying Anti-Asian Racism in Social Media.</strong><br />
+Fan Wu, Sanyam Lakhanpal, Qian Li, Kookjin Lee, <span style="color:blue">Doowon Kim</span>, Heewon Chae, and K. Hazel Kwon.</p>
+  </li>
+  <li>
+    <p>[IEEE S&amp;P ‘24]: <strong>Poisoned ChatGPT Finds Work for Idle Hands: Exploring Developers’ Coding Practices with Insecure Suggestions from Poisoned AI Models.</strong><br />
+Sanghak Oh, <ins>Kiho Lee</ins>, Seonhye Park, <span style="color:blue">Doowon Kim</span>, and Hyoungshick Kim.</p>
+  </li>
+  <li>
+    <p>[NDSS ‘24]: <strong>Sharing cyber threat intelligence: Does it really help?</strong><br />
+Beomjin Jin, Eunsoo Kim, Hyunwoo Lee, Elisa Bertino, <span style="color:blue">Doowon Kim</span>, and Hyoungshick Kim.</p>
+  </li>
+  <li>
+    <p>[ACM SIGMETRICS ‘24]: <strong>A Large Scale Study and Classification of VirusTotal Reports on Phishing and Malware URLs.</strong><br />
+Euijin Choo, Mohamed Nabeel, <span style="color:blue">Doowon Kim</span>, Ravindu De Silva, Ting Yu, and Issa Khalil.</p>
+  </li>
+  <li>
+    <p>[ACM IMC ‘23]: <strong>A Longitudinal Study of Vulnerable Client-side Resources and Web Developers’ Updating Behaviors.</strong><br />
+<ins>Kyunchan Lim</ins>, Yonghwi Kwon, and <span style="color:blue">Doowon Kim</span>.</p>
+  </li>
+  <li>
+    <p>[IEEE S&amp;P ‘23]: <strong>PyFET: Forensically Equivalent Transformation for Python Binary Decompilation.</strong><br />
+Ali Ahad, Chijung Jung, Ammar Askar, <span style="color:blue">Doowon Kim</span>, Taesoo Kim, and Yonghwi Kwon.</p>
+  </li>
+  <li>
+    <p>[ICSE ‘22]: <strong>Hiding Critical Program Components via Ambiguous Translation</strong>.<br />
+Chijung Jung, <span style="color:blue">Doowon Kim</span>, An Chen, Weihang Wang, Yunhui Zheng, Kyu Hyung Lee, and Yonghwi Kwon.</p>
+  </li>
+  <li>
+    <p>[WWW ‘21]: <strong>TLS 1.3 in Practice: How TLS 1.3 Contributes to Internet</strong>.<br />
+Hyunwoo Lee, <span style="color:blue">Doowon Kim</span>, and Yonghwi Kwon.</p>
+  </li>
+  <li>
+    <p>[USENIX Security ‘18]: <strong>The Broken Shield: Measuring Revocation Effectiveness in the Windows Code-Signing PKI</strong>.<br />
+<span style="color:blue">Doowon Kim</span>, Bum Jun Kwon, Kristián Kozák, Christopher Gates, and Tudor Dumitraș.</p>
+  </li>
+  <li>
+    <p>[ACM CCS ‘17]: <strong>Certified Malware: Measuring Breaches of Trust in the Windows Code-Signing PKI</strong>.<br />
+<span style="color:blue">Doowon Kim</span>, Bum Jun Kwon, and Tudor Dumitraș.</p>
+  </li>
+  <li>
+    <p>[IEEE S&amp;P ‘17]: <strong>Comparing the usability of cryptographic APIs</strong>.<br />
+Yasemin Acar, Michael Backes, Sascha Fahl, Simson Garfinkel, <span style="color:blue">Doowon Kim</span>, Michelle L. Mazurek, and Christian Stransky. (<em>The authors are alphabetically ordered.</em>)</p>
+  </li>
+  <li>
+    <p>[SOUPS ‘16]: <strong>An inconvenient trust: User attitudes toward security and usability tradeoffs for key-directory encryption systems</strong>.<br />
+ Wei Bai, <span style="color:blue">Doowon Kim</span>, Moses Namara, Yichen Qian, Patrick Gage Kelley, and Michelle L. Mazurek.</p>
+  </li>
+  <li>
+    <p>[IEEE S&amp;P ‘16]: <strong>You get where you’re looking for: The impact of information sources on code security</strong>.<br />
+<i class="fas fa-trophy" style="color:#FF0000;"></i> Awarded the 5th annual NSA Best Scientific Cybersecurity Paper. <br />
+Yasemin Acar, Michael Backes, Sascha Fahl, <span style="color:blue">Doowon Kim</span>, Michelle L. Mazurek, and Christian Stransky. (<em>The authors are alphabetically ordered.</em>)</p>
+  </li>
+</ul>
+
+<h3 id="professional-service">Professional Service</h3>
+<h4 id="review-panel"><strong>Review Panel</strong></h4>
+<ul>
+  <li>[NSF] National Science Foundation Proposal Review Panelist — 2023, 2024</li>
+  <li>[NSF] National Science Foundation Graduate Research Fellowships Program (GRFP) Review Panelist — 2025</li>
+</ul>
+
+<h5 id="technical-program-committee"><strong>Technical Program Committee</strong></h5>
+<ul>
+  <li>[CCS] ACM Conference on Computer and Communications Security — <a href="https://www.sigsac.org/ccs/CCS2021/">2021</a>, <a href="https://www.sigsac.org/ccs/CCS2024/">2024</a>, <a href="https://www.sigsac.org/ccs/CCS2025/">2025</a></li>
+  <li>[NDSS] Network and Distributed System Security Symposium — <a href="https://www.ndss-symposium.org/ndss2023/">2023</a>, <a href="https://www.ndss-symposium.org/ndss2024">2024</a>, <a href="https://www.ndss-symposium.org/ndss2025/">2025</a></li>
+  <li>[WWW] The Web Conference (security track) — <a href="https://www2022.thewebconf.org/">2022</a></li>
+  <li>[IMC] Internet Measurement Conference — <a href="https://conferences.sigcomm.org/imc/2025/">2025</a></li>
+  <li>[ACSAC] Annual Computer Security Applications Conference — <a href="https://www.acsac.org/2024/">2024</a></li>
+  <li>[AsiaCCS] ACM Asia Conference on Computer and Communications Security — <a href="https://asiaccs2022.conferenceservice.jp/">2022</a>, <a href="https://asiaccs2023.org/">2023</a>, <a href="https://asiaccs2024.sutd.edu.sg/">2024</a></li>
+  <li>[Euro S&amp;P] IEEE European Symposium on Security and Privacy — <a href="https://www.ieee-security.org/TC/EuroSP2023/">2023</a></li>
+  <li>[RAID] International Symposium on Research in Attacks, Intrusions, and Defenses — <a href="https://raid2021.org/">2021</a>, <a href="https://raid2022.cs.ucy.ac.cy/index.html">2022</a>, <a href="https://raid2023.org/">2023</a>, <a href="https://raid2024.github.io/">2024</a></li>
+  <li>[SOUPS] Symposium on Usable Privacy and Security — <a href="https://www.usenix.org/conference/soups2024">2024</a></li>
+  <li>[ISC]  Information Security Conference — <a href="https://isc23.cs.rug.nl/docs/home/">2023</a></li>
+  <li>[TMA] Network Traffic Measurement and Analysis Conference — <a href="https://tma.ifip.org/2022/">2022</a>, <a href="https://tma.ifip.org/2023/">2023</a>, <a href="https://tma.ifip.org/2024/">2024</a></li>
+  <li>[WiSec] ACM Conference on Security and Privacy in Wireless and Mobile Networks — <a href="https://sites.nyuad.nyu.edu/wisec21/">2021</a>, <a href="https://wisec2022.cs.utsa.edu/">2022</a></li>
+  <li>[CODASPY] ACM Conference on Data and Application Security and Privacy — <a href="http://www.codaspy.org/2021/">2021</a></li>
+  <li>[WISA] World Conference on Information Security Applications — <a href="https://wisa.or.kr/">2022</a>, 2023</li>
+  <li>[ICICS] International Conference on Information and Communications Security — <a href="https://www.icics.cn">2021</a>, <a href="https://icics2022.cyber.kent.ac.uk/">2022</a></li>
+  <li>[MSN] International Conference on Mobility, Sensing and Networking — <a href="https://ieee-msn.org/2021/">2021</a></li>
+  <li>[CSET] Workshop on Cyber Security Experimentation and Test — <a href="https://www.usenix.org/conference/cset20">2020</a>, <a href="https://cset21.isi.edu/">2021</a></li>
+  <li>[CheckMATE] Man-At-The-Middle Attacks Workshop — <a href="https://checkmate.isi.edu/">2021</a>, <a href="">2022</a></li>
+  <li>[WPES] Workshop on Privacy in the Electronic Society — <a href="https://arc.encs.concordia.ca/wpes22/index.html">2022</a></li>
+  <li>[SecWeb] SecWeb Workshop — <a href="https://secweb.work/2023.html">2023</a></li>
+</ul>
+
+<h5 id="program-chairco-chair"><strong>Program Chair/Co-Chair</strong></h5>
+<ul>
+  <li>Student Travel Grants Chair: ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec) <a href="https://wisec2024.kaist.ac.kr/">2024</a>, <a href="https://wisec2025.gmu.edu/">2025</a></li>
+  <li>Publication Chair: IEEE Secure Development Conference (SecDev) <a href="https://secdev.ieee.org/2022/home/">2022</a></li>
+  <li>Student Travel Grants Co-Chair: ACM Conference on Computer and Communications Security (CCS) <a href="https://www.sigsac.org/ccs/CCS2021/">2021</a></li>
+  <li>Poster Session Chair: Korean Computer Scientists and Engineers Association in America Technical Symposium 2021</li>
+</ul>
+
+<h5 id="journal-reviewer"><strong>Journal Reviewer</strong></h5>
+<ul>
+  <li>IEEE Transactions on Computers</li>
+  <li>Institute of Electronics, Information and Communication Engineers</li>
+</ul>
+
+<h5 id="external-reviewer"><strong>External Reviewer</strong></h5>
+<ul>
+  <li>[CCS] ACM Conference on Computer and Communications Security — 2017, 2018, 2019</li>
+  <li>[NDSS] The Network and Distributed System Security Symposium — 2018, 2019, 2020</li>
+  <li>[S&amp;P] IEEE Symposium on Security and Privacy — 2018, 2019</li>
+  <li>[USENIX Security] USENIX Security Symposium — 2018</li>
+  <li>[CODASPY] ACM Conference on Data and Application Security and Privacy — 2020</li>
+  <li>[RAID] Research in Attacks, Intrusions and Defenses — 2018, 2019</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Doowon Kim</li>
+          <li class="p-name">Assistant Professor, EECS, University of Tennessee, Knoxville</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="intro-photo">
-      <img src="assets/profile.jpg" alt="Profile Photo" />
-    </div>
-  </section>
+    <!-- <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/doowon" title="doowon"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/doow2won1" title="doow2won1"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div> -->
 
-  <!-- 논문 섹션 -->
-  <section id="publications">
-    <h2>Published Papers</h2>
-    <ul class="papers">
-      <li>
-        <b>Robust Learning under Adversarial Settings</b><br/>
-        Seonhye Park, John Doe<br/>
-        NeurIPS 2024<br/>
-        <a href="assets/paper1.pdf" target="_blank">[PDF]</a>
-      </li>
-      <li>
-        <b>Trustworthy AI via Certified Defenses</b><br/>
-        IEEE S&P 2023<br/>
-        <a href="#">[Link]</a>
-      </li>
-    </ul>
-  </section>
+  </div>
 
-  <footer>
-    <p>© 2025 Seonhye Park | <a href="mailto:your.email@university.edu">Email</a></p>
-  </footer>
+</footer>
+
+<!-- Default Statcounter code for My personal website
+https://doowon.github.io -->
+<script type="text/javascript">
+var sc_project=12201168; 
+var sc_invisible=1; 
+var sc_security="ccab86b2"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12201168/0/ccab86b2/1/"
+alt="Web Analytics"></a></div></noscript>
 </body>
+
 </html>
 
